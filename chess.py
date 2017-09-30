@@ -46,7 +46,7 @@ class chessExercise():
             for row in sMoves:
                 potential_moves += row
             potential_moves += uRight + dRight + uLeft + dLeft
-            print (potential_moves)
+            
         else:
             return ('Only Rook, Queen and Knight supported by current version')
         
